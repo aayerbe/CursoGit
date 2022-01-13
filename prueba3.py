@@ -1,7 +1,7 @@
 email=input("Introduzca su dirección de correo ")
 def comprobar(palabra):
 	if palabra.count("@")==1 and palabra.endswith("@")==False and palabra.startswith("@")==False:
-		print("Es correcto")
+		print("Es correctoooo")
 	elif palabra.count("@")!=1: 
 		print("Numero de @ incorrecto")
 	elif palabra.endswith("@")==True:
